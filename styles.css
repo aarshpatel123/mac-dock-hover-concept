@@ -1,0 +1,23 @@
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  padding: 20px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s, transform 0.3s, opacity 0.3s;
+}
+
+.item:hover {
+  background-color: #b0c4de;
+  transform: scale(1.1);
+}
+.before-hover{
+  background-color: red;
+}
+
+.after-hover{
+  background-color: green;
+}
